@@ -1,23 +1,22 @@
 (function() {
-  var toggle = document.querySelector(".navbar-toggle")
-    , collapse = document.querySelector(".navbar-collapse")
-    , scrollLinks = document.querySelectorAll("[data-scroll]")
-  ;
+  var toggle = document.querySelector('.navbar-toggle');
+  var collapse = document.querySelector('.navbar-collapse');
+  var scrollLinks = document.querySelectorAll('[data-scroll]');
 
-  for (var i = 0, len = scrollLinks.length; i < len; i++) {
-    scrollLinks[i].addEventListener("click", function() {
-      collapse.classList.add("hidden-xs");
+  scrollLinks.forEach(function(scrollLink) {
+    scrollLink.addEventListener('click', function() {
+      collapse.classList.add('hidden-xs');
     });
-  }
+  });
 
-  toggle.addEventListener("click", function() {
-    if (collapse.classList.contains("hidden-xs")) {
-      collapse.classList.remove("hidden-xs");
+  toggle.addEventListener('click', function() {
+    var classList = collapse.classList;
+    if (classList.contains('hidden-xs')) {
+      classList.remove('hidden-xs');
     } else {
-      collapse.classList.add("hidden-xs");
+      classList.add('hidden-xs');
     }
   });
 
   smoothScroll.init();
-  
 })();
