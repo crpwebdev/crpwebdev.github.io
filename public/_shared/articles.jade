@@ -1,0 +1,11 @@
+.row
+  .col-xs-12
+    section.jumbotron#articles
+      h2.text-center <i class="icon-book"></i>&nbsp;Articles
+      br
+      .list-group
+        each article in articles
+          a(href="#{article.link}" title="#{article.source}: #{article.title}" target="_blank" rel="me" class="list-group-item")
+            article(itemscope itemtype="http://schema.org/Article")
+              h3.list-group-item-heading #{article.title}
+              p.list-group-item-text <span class="label label-info">#{article.source}</span>&nbsp;<span class="label label-primary">#{article.lang}</span>

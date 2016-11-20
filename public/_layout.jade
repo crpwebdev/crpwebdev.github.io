@@ -5,7 +5,7 @@ html(lang="en" manifest="#{manifest_url}" xmlns="http://www.w3.org/1999/xhtml" x
     != partial("_shared/head")
   body
     != partial("_shared/header")
-    main.container(role="main")
+    main.container.vertical-centralization(role="main")
       != yield
     != partial("_shared/footer")
     script(src="#{root_url[environment]}js/main.js")

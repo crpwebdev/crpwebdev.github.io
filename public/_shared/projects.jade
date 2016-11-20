@@ -1,0 +1,13 @@
+.row
+  .col-xs-12
+    section.jumbotron#projects
+      h2.text-center <i class="icon-check"></i>&nbsp;Projects
+      br
+      .row
+        .col-xs-12
+          .list-group
+            each project in projects
+              a(href="#{project.link}" target="_blank" rel="me" class="list-group-item" title="#{project.title}")
+                article
+                  h3.list-group-item-heading #{project.title}
+                  p.list-group-item-text #{project.description}
