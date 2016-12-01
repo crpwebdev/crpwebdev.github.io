@@ -1,7 +1,7 @@
 footer.container-fluid
   p.text-center Powered by <a href="http://pages.github.com/" target="_blank" rel="nofollow">Github Pages</a> and <a href="http://fontello.com/" target="_blank" rel="nofollow">Fontello</a>.
-script(src="#{root_url[environment]}js/smooth-scroll.min.js" async="true" defer="true")
-script(src="#{root_url[environment]}js/main.js" async="true" defer="true")
+script(src="#{root_url[environment]}js/smooth-scroll.min.js")
+script(src="#{root_url[environment]}js/main.js")
 script.
   (function() {
     var msg  = '  ___  ___  ___ __      __ ___  ___  ___   ___ __   __\n';
@@ -11,3 +11,6 @@ script.
     msg += ' Powered by @crp_underground\n';
     console.log(msg);
   })();
+if environment == "production"
+  != partial("_shared/google_analytics")
+  script(src="#{root_url[environment]}sw.js")
