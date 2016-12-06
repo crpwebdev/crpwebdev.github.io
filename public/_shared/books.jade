@@ -8,12 +8,12 @@
           .col-xs-8.col-xs-offset-2.col-sm-offset-0.col-sm-3
             a(href="#{book.link}" title="#{book.title}" target="_blank")
               img(src="images/#{book.image}" alt="#{book.title}" class="img-responsive" itemprop="image")
-            </a>
+            br
+            a.btn.btn-success.btn-block(href="#{book.link}" title="#{book.title}" target="_blank") Buy #{book.lang}
           .col-xs-12.col-sm-9
             h2(itemprop="name") #{book.title}
             p(itemprop="description")!=book.description
-            p Pages: <span itemprop="numberOfPages" class="label label-primary">#{book.pages}</span>
-            if book.isbn
-              <p>ISBN: <span itemprop="isbn" class="label label-primary">#{book.isbn}</span></p>
-            p Buy ebook: <a href="#{book.link}" title="#{book.title}" target="_blank">#{book.lang}</a>
+            p Publisher: <strong itemprop="publisher">#{book.publisher}</strong><br>Pages: <strong itemprop="numberOfPages">#{book.pages}</strong>
+              if book.isbn
+                <br>ISBN: <strong itemprop="isbn">#{book.isbn}</strong>
         hr

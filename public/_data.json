@@ -3,10 +3,12 @@
     "books": [
       {
         "title": "Building APIs with Node.js",
-        "link": "https://leanpub.com/building-apis-with-nodejs",
-        "image": "livro-api-nodejs-english.png",
+        "link": "http://www.apress.com/br/book/9781484224410",
+        "image": "livro-api-nodejs-english.jpg",
         "description": "In this book, you'll learn in practice how to build scalable APIs in Node.js platform through writing elegant codes using ECMAScript 2015 (aka ES6) and some popular frameworks like Express, Passport, ApiDoc, Mocha, Helmet and more.<br>The project will be integrated with a SQL database through Sequelize.js and, in the end, you'll build a single page application using only Vanilla JavaScript to consumes the API's data.",
-        "pages": 152,
+        "pages": 136,
+        "publisher": "Apress",
+        "isbn": "978-1-4842-2442-7",
         "lang": "English version"
       },
       {
@@ -15,6 +17,7 @@
         "image": "livro-api-nodejs.png",
         "description": "In this book, you'll learn in practice how to build scalable APIs in Node.js platform through writing elegant codes using ECMAScript 2015 (aka ES6) and some popular frameworks like Express, Passport, ApiDoc, Mocha, Helmet and more.<br>The project will be integrated with a SQL database through Sequelize.js and, in the end, you'll build a single page application using only Vanilla JavaScript to consumes the API's data.",
         "pages": 183,
+        "publisher": "Casa do Código",
         "isbn": "978-85-5519-150-3",
         "lang": "Portuguese version"
       },
@@ -24,6 +27,7 @@
         "image": "livro-nodejs.png",
         "description": "Node.js is a powerful platform. It allows to write serve-side Javascript applications, making use of the language's syntax familiarity to write scalable applications.<br>As Node.js makes use of an object-oriented model and events, focussed in non-blocking I/O, developing on it may be different to whom is used to traditional web applications. In this book, Caio Ribeiro Pereira breaks this wall, clearly showing this paradigm change, besides focusing in importante topics, the main API's and frameworks as Express and Socket.IO.",
         "pages": 161,
+        "publisher": "Casa do Código",
         "isbn": "978-85-66250-14-5",
         "lang": "Portuguese version"
       },
@@ -33,6 +37,7 @@
         "image": "livro-meteor.png",
         "description": "JavaScript is nowadays a real choice for building server-side applications. Work with the same front-end language is a great advantage too. There are a lot of full-stack web frameworks, but Meteor is one that stand out.<br>In this book, you will learn how to create a real-time social network, exploring the main native components of Meteor.<br>Technically, you will learn how to build amazing templates using Handlebars, how to use Facebook API for sign-in and sign-up users, how to persist data into NoSQL MongoDB and how to develop an application using advanced concepts of reactive programming and Meteor PubSub.",
         "pages": 161,
+        "publisher": "Casa do Código",
         "isbn": "978-85-66250-45-9",
         "lang": "Portuguese version"
       }
@@ -158,6 +163,12 @@
       }
     ],
     "articles": [
+      {
+        "title": "How to get foreigner banking account without leaving from Brazil",
+        "link": "https://medium.com/@crp_underground/como-obter-conta-bancária-estrangeira-sem-sair-do-brasil-6550889c73c5",
+        "source": "Medium",
+        "lang": "Portugues version"
+      },
       {
         "title": "Tips to conquer a good IT job",
         "link": "https://medium.com/@crp_underground/dicas-para-conquistar-um-bom-trampo-em-ti-41954c399375",
