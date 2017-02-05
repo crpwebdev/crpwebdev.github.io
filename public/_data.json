@@ -137,9 +137,9 @@
         "description": "A newsletter about Node.js, Ruby, Go and Front-end stuffs."
       },
       {
-        "title": "Node API Examples",
-        "link": "https://github.com/caio-ribeiro-pereira/node-api-examples",
-        "description": "A set of Node Tasklist APIs which explores some databases and web frameworks."
+        "title": "WatchCoins",
+        "link": "https://watchcoins.herokuapp.com",
+        "description": "A simple webapp to see in realtime the bitcoins ticker's prices from brazilian traders."
       },
       {
         "title": "Vanilla Masker",
@@ -164,6 +164,12 @@
     ],
     "articles": [
       {
+        "title": "5 Awesome Free Books for JavaScript Developers",
+        "link": "https://blog.jscrambler.com/5-awesome-free-ebooks-for-javascript-developers/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
         "title": "How to get foreigner banking account without leaving from Brazil",
         "link": "https://medium.com/@crp_underground/como-obter-conta-bancária-estrangeira-sem-sair-do-brasil-6550889c73c5",
         "source": "Medium",
@@ -185,7 +191,6 @@
         "title": "Immutable data with Immutable.js",
         "link": "https://blog.jscrambler.com/immutable-data-immutable-js/",
         "source": "JSCrambler blog",
-        "lang": "English version",
         "lang": "English version"
       },
       {

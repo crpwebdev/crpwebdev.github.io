@@ -57,7 +57,14 @@ module.exports = (grunt) => {
       },
       all: {
         dest: 'www/manifest.appcache',
-        cache: 'www/**/*',
+        cache: {
+          patterns: [
+            'www/404.html',
+            'www/robots.txt',
+            'www/favicon.ico',
+            'www/**/*.{css,js,woff,ttf,svg,eot,gif,png,jpg,jpeg}'
+          ]
+        },
         network: '*'
       }
     },
@@ -72,11 +79,8 @@ module.exports = (grunt) => {
       },
       default: {
         staticFileGlobs: [
-          'index.html',
           '404.html',
-          'manifest.json',
           'robots.txt',
-          'manifest.appcache',
           'favicon.ico',
           '**/*.{css,js,woff,ttf,svg,eot,gif,png,jpg,jpeg}'
         ]
