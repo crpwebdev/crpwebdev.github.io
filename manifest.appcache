@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 1 - 2016-12-06T20:41:52.504Z
+# rev 1 - 2017-02-05T17:35:42.840Z
 
 CACHE:
 404.html
@@ -20,7 +20,6 @@ images/meteor-for-noobs.jpg
 images/meteor-um-overview-sobre-a-plataforma.jpg
 images/nodejs-for-noobs.jpg
 images/realtime-com-nodejs-e-socketio.jpg
-index.html
 js/aight.min.js
 js/html5shiv.min.js
 js/main.js
