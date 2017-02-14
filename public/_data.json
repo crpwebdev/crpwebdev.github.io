@@ -138,8 +138,8 @@
       },
       {
         "title": "WatchCoins",
-        "link": "https://watchcoins.herokuapp.com",
-        "description": "A simple webapp to see in realtime the bitcoins ticker's prices from brazilian traders."
+        "link": "https://watchcoins.net",
+        "description": "A simple webapp to track in realtime bitcoins/altcoins quotations."
       },
       {
         "title": "Vanilla Masker",
