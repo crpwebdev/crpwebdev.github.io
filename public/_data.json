@@ -2,6 +2,15 @@
   "index": {
     "books": [
       {
+        "title": "JavaScript Awesome Tips (Br version)",
+        "link": "https://leanpub.com/javascript-awesome-tips-br-version",
+        "image": "livro-javascript-awesome-tips.png",
+        "description": "This is a cookbook with a collection of useful tips and tricks to apply in JavaScript/Node.js, each tip shows a problem and some magical solutions in pratical codes.",
+        "pages": 40,
+        "publisher": "Leanpub",
+        "lang": "Portuguese version"
+      },
+      {
         "title": "Building APIs with Node.js",
         "link": "http://www.apress.com/br/book/9781484224410",
         "image": "livro-api-nodejs-english.jpg",
