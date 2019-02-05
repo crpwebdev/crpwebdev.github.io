@@ -2,11 +2,11 @@
   "index": {
     "books": [
       {
-        "title": "JavaScript Awesome Tips (Br version)",
-        "link": "https://leanpub.com/javascript-awesome-tips-br-version",
-        "image": "livro-javascript-awesome-tips.png",
+        "title": "JavaScript Dicas Incríveis",
+        "link": "https://leanpub.com/javascript-dicas-incriveis",
+        "image": "livro-javascript-dicas-incriveis.jpg",
         "description": "This is a cookbook with a collection of useful tips and tricks to apply in JavaScript/Node.js, each tip shows a problem and some magical solutions in pratical codes.",
-        "pages": 40,
+        "pages": 45,
         "publisher": "Leanpub",
         "lang": "Portuguese version"
       },
@@ -66,16 +66,6 @@
         "title": "LinkedIn",
         "link": "http://br.linkedin.com/in/caioribeiropereira",
         "icon": "icon-linkedin"
-      },
-      {
-        "title": "Google+",
-        "link": "https://plus.google.com/+CaioRibeiroPereira",
-        "icon": "icon-gplus"
-      },
-      {
-        "title": "Blog",
-        "link": "https://udgwebdev.com",
-        "icon": "icon-rss"
       },
       {
         "title": "Github",
@@ -141,11 +131,6 @@
         "description": "This is my brazilian blog about Node.js, Ruby, JavaScript, Linux and a lot of developer stuffs."
       },
       {
-        "title": "Underground WebDev Weekly",
-        "link": "http://weekly.udgwebdev.com",
-        "description": "A newsletter about Node.js, Ruby, Go and Front-end stuffs."
-      },
-      {
         "title": "WatchCoins",
         "link": "https://watchcoins.net",
         "description": "A simple webapp to track in realtime bitcoins/altcoins quotations."
@@ -167,6 +152,30 @@
       }
     ],
     "articles": [
+      {
+        "title": "Building a simple Voice Recognition using JavaScript",
+        "link": "https://medium.com/@crp_underground/criando-um-simples-voice-recognition-com-javascript-51fded1cc8d1",
+        "source": "Medium",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Adding third-party services on Franz",
+        "link": "https://medium.com/@crp_underground/incluindo-servi%C3%A7os-n%C3%A3o-oficiais-no-franz-4912e436aa8e",
+        "source": "Medium",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Useful tips about JavaScript function",
+        "link": "https://imasters.com.br/desenvolvimento/dicas-uteis-sobre-function-javascript",
+        "source": "iMaster",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "4 useful Tips about Strings on JavaScript",
+        "link": "https://medium.com/@crp_underground/4-dicas-%C3%BAteis-de-strings-para-javascript-78cd20954cf2",
+        "source": "Medium",
+        "lang": "Portuguese version"
+      },
       {
         "title": "5 Awesome Free Books for JavaScript Developers",
         "link": "https://blog.jscrambler.com/5-awesome-free-ebooks-for-javascript-developers/",
