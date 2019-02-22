@@ -1,14 +1,13 @@
 {
   "globals": {
     "title": "CRPWebDev",
-    "page_title": "Developer, writter, blogger and maker. - Caio Ribeiro Pereira",
+    "page_title": "Developer, writter, blogger and entrepreneur | CRPWebDev",
     "slug_title": "crpwebdev",
     "description": "Developer, writter, blogger and maker.",
     "author": "Caio Ribeiro Pereira",
     "email": "caio.ribeiro.pereira@gmail.com",
     "main_image": "caio-ribeiro-pereira.jpg",
     "github_repo": "git@github.com:crpwebdev/crpwebdev.github.io.git",
-    "google_plus": "https://plus.google.com/+CaioRibeiroPereira",
     "twitter": "@crp_underground",
     "root_url": {
       "development": "http://localhost:3000/",

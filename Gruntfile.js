@@ -49,43 +49,6 @@ module.exports = (grunt) => {
         }]
       }
     },
-    // Manifest ======================================
-    appcache: {
-      options: {
-        basePath: 'www',
-        baseUrl: harp.globals.root_url.production
-      },
-      all: {
-        dest: 'www/manifest.appcache',
-        cache: {
-          patterns: [
-            'www/404.html',
-            'www/robots.txt',
-            'www/favicon.ico',
-            'www/**/*.{css,js,woff,ttf,svg,eot,gif,png,jpg,jpeg}'
-          ]
-        },
-        network: '*'
-      }
-    },
-    // SW PreCache ===================================
-    'sw-precache': {
-      options: {
-        baseDir: 'www',
-        cacheId: harp.globals.slug_title,
-        workerFileName: 'sw.js',
-        verbose: true,
-        handleFetch: true
-      },
-      default: {
-        staticFileGlobs: [
-          '404.html',
-          'robots.txt',
-          'favicon.ico',
-          '**/*.{css,js,woff,ttf,svg,eot,gif,png,jpg,jpeg}'
-        ]
-      }
-    },
     // Github Pages ==================================
     'gh-pages': {
       options: {
@@ -105,11 +68,9 @@ module.exports = (grunt) => {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-appcache');
-  grunt.loadNpmTasks('grunt-sw-precache');
-
+  
   grunt.registerTask('prebuild:dev', ['clean', 'env:dev', 'sass', 'imagemin']);
   grunt.registerTask('prebuild:prod', ['clean', 'env:prod', 'sass', 'imagemin']);
-  grunt.registerTask('build:prod', ['appcache', 'sw-precache', 'compress']);
+  grunt.registerTask('build:prod', ['compress']);
   grunt.registerTask('deploy:prod', ['gh-pages', 'clean']);
 };

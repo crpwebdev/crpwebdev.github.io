@@ -1,7 +1,7 @@
-(function() {
-  var toggle = document.querySelector('.navbar-toggle');
-  var collapse = document.querySelector('.navbar-collapse');
-  var scrollLinks = document.querySelectorAll('[data-scroll]');
+(() => {
+  const toggle = document.querySelector('.navbar-toggle');
+  const collapse = document.querySelector('.navbar-collapse');
+  const scrollLinks = document.querySelectorAll('[data-scroll]');
 
   scrollLinks.forEach(function(scrollLink) {
     scrollLink.addEventListener('click', function() {
@@ -10,7 +10,7 @@
   });
 
   toggle.addEventListener('click', function() {
-    var classList = collapse.classList;
+    const classList = collapse.classList;
     if (classList.contains('hidden-xs')) {
       classList.remove('hidden-xs');
     } else {

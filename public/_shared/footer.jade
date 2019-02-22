@@ -11,6 +11,4 @@ script.
     msg += ' Powered by @crp_underground\n';
     console.log(msg);
   })();
-if environment == "production"
-  != partial("_shared/google_analytics")
-  script(src="#{root_url[environment]}sw.js")
+!= partial("_shared/google_analytics")
