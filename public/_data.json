@@ -11,6 +11,15 @@
         "lang": "English version"
       },
       {
+        "title": "JavaScript Awesome Tips",
+        "link": "https://leanpub.com/javascript-awesome-tips-russian",
+        "image": "livro-javascript-awesome-tips-russian.jpg",
+        "description": "This is a cookbook with a collection of useful tips and tricks to apply in JavaScript/Node.js, each tip shows a problem and some magical solutions in pratical codes.",
+        "pages": 50,
+        "publisher": "Leanpub",
+        "lang": "Russian version"
+      },
+      {
         "title": "JavaScript Dicas Incríveis",
         "link": "https://leanpub.com/javascript-dicas-incriveis",
         "image": "livro-javascript-dicas-incriveis.jpg",
