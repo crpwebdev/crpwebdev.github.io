@@ -149,16 +149,6 @@
         "description": "This is my brazilian blog about Node.js, Ruby, JavaScript, Linux and a lot of developer stuffs."
       },
       {
-        "title": "Codebanca",
-        "link": "https://app.codebanca.com",
-        "description": "A newsletter app for developers and software engineers."
-      },
-      {
-        "title": "WatchCoins",
-        "link": "https://watchcoins.net",
-        "description": "A simple webapp to track in realtime bitcoins/altcoins quotations."
-      },
-      {
         "title": "Vanilla Masker",
         "link": "http://bankfacil.github.io/vanilla-masker",
         "description": "A JavaScript library for mask input without the needs of jQuery or Zepto as dependency."
