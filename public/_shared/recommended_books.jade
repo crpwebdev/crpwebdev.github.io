@@ -1,0 +1,13 @@
+.row
+  .col-xs-12
+    section.jumbotron#recommended_books
+      h2.text-center <i class="icon-book"></i>&nbsp;Recommended Books
+      br
+      .row
+        .col-xs-12
+          .list-group
+            each book in recommended_books
+              a(href="#{book.link}" target="_blank" rel="me" class="list-group-item" title="#{book.title}")
+                article
+                  h3.list-group-item-heading #{book.title}
+                  p.list-group-item-text #{book.description}

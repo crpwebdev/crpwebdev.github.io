@@ -1,3 +1,4 @@
+const sass = require('node-sass');
 const harp = require('./harp.json');
 
 module.exports = (grunt) => {
@@ -18,7 +19,7 @@ module.exports = (grunt) => {
     // Stylus ========================================
     sass: {
       main: {
-        options: { outputStyle: 'compressed' },
+        options: { outputStyle: 'compressed', implementation: sass },
         files: {
           'public/css/main.css': 'public/css/main.scss'
         }

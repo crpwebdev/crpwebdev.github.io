@@ -142,10 +142,52 @@
         "description": "In this talk is presented some great projects built on top of JavaScript in each platforms (Mobile, Desktop and Web)."
       }
     ],
+    "recommended_books": [
+      {
+        "title": "Rework",
+        "link": "https://amzn.to/2REbOJt",
+        "description": "Rework shows you a better, faster, easier way to succeed in business. Read it and you'll know why plans are actually harmful, why you don't need outside investors, and why you're better off ignoring the competition."
+      },
+      {
+        "title": "Remote",
+        "link": "https://amzn.to/3mJw230",
+        "description": "The classic guide to working from home and why we should embrace a virtual office, from the bestselling authors of Rework."
+      },
+      {
+        "title": "Lean Startup",
+        "link": "https://amzn.to/3mBVlUk",
+        "description": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses."
+      },
+      {
+        "title": "Clean Code",
+        "link": "https://amzn.to/3ksYEvm",
+        "description": "This book is a must for any developer, software engineer, project manager, team lead, or systems analyst with an interest in producing better code."
+      },
+      {
+        "title": "Blitzscaling",
+        "link": "https://amzn.to/32IntNO",
+        "description": "The Lightning-Fast Path to Building Massively Valuable Companies."
+      }
+    ],
     "projects": [
       {
+        "title": "Biz Ideas",
+        "link": "https://bizideas.substack.com/",
+        "description": "A blog about startups and business models."
+      },
+      {
+        "title": "Field Normalizer",
+        "link": "https://www.npmjs.com/package/field-normalizer",
+        "description": "A node.js module for object field's normalization."
+      },
+      {
+        "title": "Gzipme",
+        "link": "https://www.npmjs.com/package/gzipme",
+        "description": "A simple and tiny lib/cli for gzip file compression."
+      },
+      {
         "title": "Underground WebDev",
-        "link": "https://udgwebdev.com",
+        "link": "https://udgwebdev.github.io",
         "description": "This is my brazilian blog about Node.js, Ruby, JavaScript, Linux and a lot of developer stuffs."
       },
       {
