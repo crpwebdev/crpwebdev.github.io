@@ -171,6 +171,16 @@
     ],
     "projects": [
       {
+        "title": "POSE",
+        "link": "https://crpwebdev.github.io/pose/",
+        "description": "Post Once Share Everywhere"
+      },
+      {
+        "title": "Simple Snake",
+        "link": "https://crpwebdev.github.io/simple-snake/",
+        "description": "Simple Snake Game written in HTML Canvas"
+      },
+      {
         "title": "Biz Ideas",
         "link": "https://bizideas.substack.com/",
         "description": "A blog about startups and business models."
