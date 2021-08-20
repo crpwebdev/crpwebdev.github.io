@@ -1,0 +1,19 @@
+.row
+  .col-xs-12
+    section.jumbotron#books
+      h2.text-center <i class="icon-book"></i>&nbsp;Books
+      br
+      each book in books
+        article.row(itemscope itemtype="http://schema.org/Book")
+          .col-xs-8.col-xs-offset-2.col-sm-offset-0.col-sm-3
+            a(href="#{book.link}" title="#{book.title}" target="_blank")
+              img(src="images/#{book.image}" alt="#{book.title}" class="img-responsive" itemprop="image")
+            br
+            a.btn.btn-success.btn-block(href="#{book.link}" title="#{book.title}" target="_blank") Buy #{book.lang}
+          .col-xs-12.col-sm-9
+            h2(itemprop="name") #{book.title}
+            p(itemprop="description")!=book.description
+            p Publisher: <strong itemprop="publisher">#{book.publisher}</strong><br>Pages: <strong itemprop="numberOfPages">#{book.pages}</strong>
+              if book.isbn
+                <br>ISBN: <strong itemprop="isbn">#{book.isbn}</strong>
+        hr

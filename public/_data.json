@@ -1,0 +1,354 @@
+{
+  "index": {
+    "books": [
+      {
+        "title": "JavaScript Awesome Tips",
+        "link": "https://leanpub.com/javascript-awesome-tips",
+        "image": "livro-javascript-awesome-tips.jpg",
+        "description": "This is a cookbook with a collection of useful tips and tricks to apply in JavaScript/Node.js, each tip shows a problem and some magical solutions in pratical codes.",
+        "pages": 50,
+        "publisher": "Leanpub",
+        "lang": "English version"
+      },
+      {
+        "title": "JavaScript Awesome Tips",
+        "link": "https://leanpub.com/javascript-awesome-tips-russian",
+        "image": "livro-javascript-awesome-tips-russian.jpg",
+        "description": "This is a cookbook with a collection of useful tips and tricks to apply in JavaScript/Node.js, each tip shows a problem and some magical solutions in pratical codes.",
+        "pages": 50,
+        "publisher": "Leanpub",
+        "lang": "Russian version"
+      },
+      {
+        "title": "JavaScript Dicas Incríveis",
+        "link": "https://leanpub.com/javascript-dicas-incriveis",
+        "image": "livro-javascript-dicas-incriveis.jpg",
+        "description": "This is a cookbook with a collection of useful tips and tricks to apply in JavaScript/Node.js, each tip shows a problem and some magical solutions in pratical codes.",
+        "pages": 50,
+        "publisher": "Leanpub",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Building APIs with Node.js",
+        "link": "http://www.apress.com/br/book/9781484224410",
+        "image": "livro-api-nodejs-english.jpg",
+        "description": "In this book, you'll learn in practice how to build scalable APIs in Node.js platform through writing elegant codes using ECMAScript 2015 (aka ES6) and some popular frameworks like Express, Passport, ApiDoc, Mocha, Helmet and more.<br>The project will be integrated with a SQL database through Sequelize.js and, in the end, you'll build a single page application using only Vanilla JavaScript to consumes the API's data.",
+        "pages": 136,
+        "publisher": "Apress",
+        "isbn": "978-1-4842-2442-7",
+        "lang": "English version"
+      },
+      {
+        "title": "Construindo APIs REST com Node.js",
+        "link": "http://www.casadocodigo.com.br/products/livro-apis-nodejs",
+        "image": "livro-api-nodejs.png",
+        "description": "In this book, you'll learn in practice how to build scalable APIs in Node.js platform through writing elegant codes using ECMAScript 2015 (aka ES6) and some popular frameworks like Express, Passport, ApiDoc, Mocha, Helmet and more.<br>The project will be integrated with a SQL database through Sequelize.js and, in the end, you'll build a single page application using only Vanilla JavaScript to consumes the API's data.",
+        "pages": 183,
+        "publisher": "Casa do Código",
+        "isbn": "978-85-5519-150-3",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Aplicações web realtime com Node.js",
+        "link": "http://www.casadocodigo.com.br/products/livro-apis-nodejs",
+        "image": "livro-nodejs.png",
+        "description": "Node.js is a powerful platform. It allows to write serve-side Javascript applications, making use of the language's syntax familiarity to write scalable applications.<br>As Node.js makes use of an object-oriented model and events, focussed in non-blocking I/O, developing on it may be different to whom is used to traditional web applications. In this book, Caio Ribeiro Pereira breaks this wall, clearly showing this paradigm change, besides focusing in importante topics, the main API's and frameworks as Express and Socket.IO.",
+        "pages": 161,
+        "publisher": "Casa do Código",
+        "isbn": "978-85-66250-14-5",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Meteor - Criando aplicações web real-time com JavaScript",
+        "link": "http://www.casadocodigo.com.br/products/livro-meteor",
+        "image": "livro-meteor.png",
+        "description": "JavaScript is nowadays a real choice for building server-side applications. Work with the same front-end language is a great advantage too. There are a lot of full-stack web frameworks, but Meteor is one that stand out.<br>In this book, you will learn how to create a real-time social network, exploring the main native components of Meteor.<br>Technically, you will learn how to build amazing templates using Handlebars, how to use Facebook API for sign-in and sign-up users, how to persist data into NoSQL MongoDB and how to develop an application using advanced concepts of reactive programming and Meteor PubSub.",
+        "pages": 161,
+        "publisher": "Casa do Código",
+        "isbn": "978-85-66250-45-9",
+        "lang": "Portuguese version"
+      }
+    ],
+    "contacts": [
+      {
+        "title": "Email",
+        "link": "mailto:caio.ribeiro.pereira@gmail.com",
+        "icon": "icon-gmail"
+      },
+      {
+        "title": "Twitter",
+        "link": "https://twitter.com/crp_underground",
+        "icon": "icon-twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "link": "http://br.linkedin.com/in/caioribeiropereira",
+        "icon": "icon-linkedin"
+      },
+      {
+        "title": "Github",
+        "link": "https://github.com/caio-ribeiro-pereira",
+        "icon": "icon-github"
+      }
+    ],
+    "talks": [
+      {
+        "title": "Meteor for Noobs",
+        "link": "https://speakerdeck.com/caioribeiropereira/meteor-for-noobs",
+        "image": "meteor-for-noobs.jpg",
+        "lang": "Portuguese version",
+        "description": "In this talk, you'll learn about Meteor platform and what's news in the version 1.2+ about this amazing fullstack framework for JavaScript."
+      },
+      {
+        "title": "Node.js for Noobs",
+        "link": "http://www.slideshare.net/caioribeiropereira/nodejs-for-noobs",
+        "image": "nodejs-for-noobs.jpg",
+        "lang": "Portuguese version",
+        "description": "In this talk, let's learn the main concepts about Node.js and Socket.IO in easy and practical way."
+      },
+      {
+        "title": "API Design Best Practices",
+        "link": "http://www.slideshare.net/caioribeiropereira/boas-prticas-de-api-design",
+        "image": "boas-praticas-de-api-design.jpg",
+        "lang": "Portuguese version",
+        "description": "A quick talk with useful tips and best practices to create and design nice Rest APIs."
+      },
+      {
+        "title": "JavaScript Hacks",
+        "link": "http://www.slideshare.net/caioribeiropereira/javascript-hacks",
+        "image": "javascript-hacks.jpg",
+        "lang": "Portuguese version",
+        "description": "This talk you will learn some useful JavaScript hacks to use it into a JavaScript/Meteor/Node.js application."
+      },
+      {
+        "title": "Realtime with Node.js and Socket.IO",
+        "link": "http://www.slideshare.net/caioribeiropereira/realtime-com-nodejs-e-socketio",
+        "image": "realtime-com-nodejs-e-socketio.jpg",
+        "lang": "Portuguese version",
+        "description": "In this talk the main features is presented, in practice way, explaining about JavaScript OOP and Node.js with Socket.IO framework."
+      },
+      {
+        "title": "A Meteor's overview",
+        "link": "http://www.slideshare.net/caioribeiropereira/meteor-um-overview-sobre-a-plataforma",
+        "image": "meteor-um-overview-sobre-a-plataforma.jpg",
+        "lang": "Portuguese version",
+        "description": "Let's learn the basic concepts about Meteor and how this amazing full stack framework works in this simple talk!"
+      },
+      {
+        "title": "JavaScript Today",
+        "link": "http://www.slideshare.net/caioribeiropereira/javascript-nos-dias-de-hoje-15129844",
+        "image": "javascript-nos-dias-de-hoje.jpg",
+        "lang": "Portuguese version",
+        "description": "In this talk is presented some great projects built on top of JavaScript in each platforms (Mobile, Desktop and Web)."
+      }
+    ],
+    "recommended_books": [
+      {
+        "title": "Rework",
+        "link": "https://amzn.to/2REbOJt",
+        "description": "Rework shows you a better, faster, easier way to succeed in business. Read it and you'll know why plans are actually harmful, why you don't need outside investors, and why you're better off ignoring the competition."
+      },
+      {
+        "title": "Remote",
+        "link": "https://amzn.to/3mJw230",
+        "description": "The classic guide to working from home and why we should embrace a virtual office, from the bestselling authors of Rework."
+      },
+      {
+        "title": "Lean Startup",
+        "link": "https://amzn.to/3mBVlUk",
+        "description": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses."
+      },
+      {
+        "title": "Clean Code",
+        "link": "https://amzn.to/3ksYEvm",
+        "description": "This book is a must for any developer, software engineer, project manager, team lead, or systems analyst with an interest in producing better code."
+      },
+      {
+        "title": "Blitzscaling",
+        "link": "https://amzn.to/32IntNO",
+        "description": "The Lightning-Fast Path to Building Massively Valuable Companies."
+      }
+    ],
+    "projects": [
+      {
+        "title": "POSE",
+        "link": "https://crpwebdev.github.io/pose/",
+        "description": "Post Once Share Everywhere"
+      },
+      {
+        "title": "Simple Snake",
+        "link": "https://crpwebdev.github.io/simple-snake/",
+        "description": "Simple Snake Game written in HTML Canvas"
+      },
+      {
+        "title": "Biz Ideas",
+        "link": "https://bizideas.substack.com/",
+        "description": "A blog about startups and business models."
+      },
+      {
+        "title": "Field Normalizer",
+        "link": "https://www.npmjs.com/package/field-normalizer",
+        "description": "A node.js module for object field's normalization."
+      },
+      {
+        "title": "Gzipme",
+        "link": "https://www.npmjs.com/package/gzipme",
+        "description": "A simple and tiny lib/cli for gzip file compression."
+      },
+      {
+        "title": "Underground WebDev",
+        "link": "https://udgwebdev.github.io",
+        "description": "This is my brazilian blog about Node.js, Ruby, JavaScript, Linux and a lot of developer stuffs."
+      },
+      {
+        "title": "Vanilla Masker",
+        "link": "http://bankfacil.github.io/vanilla-masker",
+        "description": "A JavaScript library for mask input without the needs of jQuery or Zepto as dependency."
+      },
+      {
+        "title": "DevFreeBooks",
+        "link": "https://devfreebooks.github.io",
+        "description": "A collection of free books for developers."
+      },
+      {
+        "title": "DevNewsletters",
+        "link": "https://devnewsletters.github.io",
+        "description": "A list of newsletters for developers and founders."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Building a simple Voice Recognition using JavaScript",
+        "link": "https://medium.com/@crp_underground/criando-um-simples-voice-recognition-com-javascript-51fded1cc8d1",
+        "source": "Medium",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Adding third-party services on Franz",
+        "link": "https://medium.com/@crp_underground/incluindo-servi%C3%A7os-n%C3%A3o-oficiais-no-franz-4912e436aa8e",
+        "source": "Medium",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "Useful tips about JavaScript function",
+        "link": "https://imasters.com.br/desenvolvimento/dicas-uteis-sobre-function-javascript",
+        "source": "iMaster",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "4 useful Tips about Strings on JavaScript",
+        "link": "https://medium.com/@crp_underground/4-dicas-%C3%BAteis-de-strings-para-javascript-78cd20954cf2",
+        "source": "Medium",
+        "lang": "Portuguese version"
+      },
+      {
+        "title": "5 Awesome Free Books for JavaScript Developers",
+        "link": "https://blog.jscrambler.com/5-awesome-free-ebooks-for-javascript-developers/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "How to get foreigner banking account without leaving from Brazil",
+        "link": "https://medium.com/@crp_underground/como-obter-conta-bancária-estrangeira-sem-sair-do-brasil-6550889c73c5",
+        "source": "Medium",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Tips to conquer a good IT job",
+        "link": "https://medium.com/@crp_underground/dicas-para-conquistar-um-bom-trampo-em-ti-41954c399375",
+        "source": "Medium",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Building a Media Center with Raspberry Pi",
+        "link": "https://medium.com/@crp_underground/criando-um-media-center-com-raspberry-pi-7841917464c0",
+        "source": "Medium",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Immutable data with Immutable.js",
+        "link": "https://blog.jscrambler.com/immutable-data-immutable-js/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "10 Tips for Optimizing Node.js applications",
+        "link": "https://blog.jscrambler.com/10-tips-for-optimizing-node-js-applications/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "Setting up 5 useful middlewares for an Express API",
+        "link": "https://blog.jscrambler.com/setting-up-5-useful-middlewares-for-an-express-api/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "Implementing JWT using Passport",
+        "link": "https://blog.jscrambler.com/implementing-jwt-using-passport/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "8 Awesome ES6 features",
+        "link": "https://blog.jscrambler.com/8-awesome-es6-features/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "Testing APIs with Mocha",
+        "link": "https://blog.jscrambler.com/testing-apis-mocha-2/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "Documenting APIs using ApiDoc.js",
+        "link": "https://blog.jscrambler.com/documenting-apis-using-apidoc-js/",
+        "source": "JSCrambler blog",
+        "lang": "English version"
+      },
+      {
+        "title": "An article about 99folks app",
+        "link": "http://g1.globo.com/sp/santos-regiao/noticia/2015/06/jovem-cria-aplicativo-que-promete-aposentar-os-cartoes-de-visita.html",
+        "source": "G1 Globo",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Playing with Template Engine Jade",
+        "link": "http://imasters.com.br/desenvolvimento/brincando-com-o-template-engine-jade/",
+        "source": "iMasters Blog",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Documenting APIs with ApiDoc.js",
+        "link": "http://imasters.com.br/front-end/javascript/documentando-apis-com-apidoc-js/",
+        "source": "iMasters Blog",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Asynchronous programming with Node.js",
+        "link": "http://www.devmedia.com.br/programacao-assincrona-com-node-js/31509",
+        "source": "Front-end Magazine",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Understanding Node.js event-loop",
+        "link": "http://imasters.com.br/front-end/javascript/entendendo-o-event-loop-do-node-js/",
+        "source": "iMasters Blog",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Paralell processing with Node.js",
+        "link": "http://imasters.com.br/desenvolvimento/node-js-processando-em-paralelo/",
+        "source": "iMasters Blog",
+        "lang": "Portugues version"
+      },
+      {
+        "title": "Tips for interns",
+        "link": "http://www.revista.espiritolivre.org/lancada-edicao-n-32-da-revista-espirito-livre",
+        "source": "Espírito Livre Magazine",
+        "lang": "Portugues version"
+      }
+    ]
+  }
+}

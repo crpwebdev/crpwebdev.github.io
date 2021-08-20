@@ -1,0 +1,9 @@
+doctype html
+html(lang="en" xmlns:og="http://ogp.me/ns#")
+  head
+    != partial("_shared/head")
+  body
+    != partial("_shared/header")
+    main.container.vertical-centralization(role="main")
+      != yield
+    != partial("_shared/footer")

@@ -1,0 +1,19 @@
+.row
+  .col-xs-12
+    section.jumbotron#talks
+      h2.text-center <i class="icon-slideshare"></i>&nbsp;Talks
+      br
+      .row
+        each talk in talks
+          .col-xs-12.col-md-6
+            section.panel.panel-primary
+              .panel-heading
+                h3.panel-title #{talk.title}
+              .panel-body
+                p
+                  a(href="#{talk.link}" title="#{talk.title}" target="_blank" rel="me")
+                    figure
+                      img(src="images/#{talk.image}" alt="#{talk.title}" class="img-responsive")
+                      figcaption.text-center <span class="label label-primary">#{talk.lang}</span>
+                  br
+                  = talk.description

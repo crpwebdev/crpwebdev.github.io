@@ -1,0 +1,11 @@
+.row
+  .col-xs-12
+    section.jumbotron#contact
+      h2.text-center <i class="icon-chat"></i>&nbsp;Contact
+      br
+      .row
+        each contact in contacts
+          .col-xs-3.text-center
+            a(href="#{contact.link}" title="#{contact.title}" target="_blank" rel="nofollow" class="text-primary")
+              .hidden-xs <i class="h1 #{contact.icon} text-center"></i>
+              .visible-xs-block <i class="h3 #{contact.icon} text-center"></i>
